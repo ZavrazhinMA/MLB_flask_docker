@@ -2,11 +2,11 @@
 Итоговый проект курса "Машинное обучение в бизнесе"
 
 Стек:
-ML: sklearn, pandas, numpy, xgboost
-API: flask
-Модель: XGBoostClassifier
-Данные: с kaggle - https://www.kaggle.com/arashnic/hr-analytics-job-change-of-data-scientists
-Задача: предсказать target: 0 – Not looking for job change, 1 – Looking for a job change. Бинарная классификация
+* ML: sklearn, pandas, numpy, xgboost
+* API: flask
+* Модель: XGBoostClassifier
+* Данные: с kaggle - https://www.kaggle.com/arashnic/hr-analytics-job-change-of-data-scientists
+* Задача: предсказать target: 0 – Not looking for job change, 1 – Looking for a job change. Бинарная классификация
 
 Используемые признаки:
 |N|Features|Description
