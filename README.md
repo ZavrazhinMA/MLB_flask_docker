@@ -25,16 +25,15 @@ API: flask
 12|lastnewjob| Difference in years between previous job and current job
 13|training_hours| training hours completed
 
-### Клонируем репозиторий и создаем образ
+### Клон репозитория и создаение образа
 ```
 $ git clone https://github.com/ZavrazhinMA/MLB_flask_docker.git
 $ cd MLB_flask_docker
 $ docker build -t mlb/docker_ex .
 ```
-### Запускаем контейнер
+### Запуск контейнера
 
 ```
 $ docker run -d -p 8180:8180 -v <your_local_path_to_pretrained_models>:/app/app/model mlb/docker_ex 
-```
-Здесь Вам нужно создать каталог локально и сохранить туда предобученную модель (<your_local_path_to_pretrained_models> нужно заменить на полный путь к этому каталогу)
+<your_local_path_to_pretrained_models> - заменить на полный путь к каталогу c предобученной моделью
 
